@@ -2,13 +2,23 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background: black;
+}
+
 .app-header {
   padding:3px;
-  background: black;
+  font-size: 1.2em;
+  background: chocolate;
   color: white;
   width: 100%;
   margin-bottom: 0px;
 }
+
+.app-header i {
+  font-size: 1.6em;
+}
+
 .completed-section {
   height: 100vh;
   background: gray;
